@@ -3,11 +3,11 @@ name: My First Workflow
 on:
   pull:
     branches:
-      - main
+      - mani
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: linux-latest
 
     steps:
       - name: Checkout code
